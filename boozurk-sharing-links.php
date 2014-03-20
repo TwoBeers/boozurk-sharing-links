@@ -77,8 +77,8 @@ class BoozurkSocialPlugin {
 		if ( is_admin() ) {
 
 		} else {
-			$this->load_file( self::slug . '-script', '/js/bsp.js', true, array( 'type' => boozurk_get_opt( 'boozurk_plusone' ) ) );
-			$this->load_file( self::slug . '-style', '/css/bsp.css' );
+			$this->load_file( self::slug . '-script', '/js/bsl.js', true, array( 'type' => boozurk_get_opt( 'boozurk_plusone' ) ) );
+			$this->load_file( self::slug . '-style', '/css/bsl.css' );
 		} // end if/else
 	} // end register_scripts_and_styles
 	
